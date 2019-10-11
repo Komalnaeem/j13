@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>alert message</title>
+</head>
+<body>
+	<h2>Image Maps</h2>
+<p>Click on the cup of coffee to execute a JavaScript function:</p>
+
+<img src="komal.jpg" alt="laptop" usemap="#komal">
+
+<map name="komal">
+  <area shape="circle" coords="390,129,85" onclick="mykomal()">
+</map>
+
+<script>
+function mykomal() {
+  alert("You clicked the coffee cup!");
+}
+</script>
+
+</body>
+</html>
