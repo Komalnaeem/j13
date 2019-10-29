@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form</title>
+<style>
+body{
+	background-color:#ccccff;
+    width:25%;
+    margin:auto;
+    height:auto;
+    color:#003399;
+    margin-top:40px;
+	font-size:15px;
+	font-weight:bold;
+}
+form{
+	margin-top:25px;
+}
+h1{
+	
+	text-align:center;
+}
+
+input[type=text]{
+	width:100%;
+	border:1px solid blue;
+
+	margin:8px 0;
+	padding:12px 20px;
+	border-radius:3px;
+	border-sizing:border-box;
+	display:inline-block;
+color:white;
+
+}
+
+select{
+	width:113%;
+	border:1px solid blue;
+	
+	margin:8px 0;
+	padding:12px 20px;
+	border-radius:3px;
+	border-sizing:border-box;
+	display:inline-block;
+	
+	text-align:center;
+
+}
+
+
+
+input[type=submit]{
+	background-color:#003366;
+	padding:10px 20px;
+	margin:20px;
+	border:none;
+	width:250px;
+	color:white;
+	font-size:15px;
+	font-weight:bold;
+	cursor:pointer;
+	border-radius:3px;
+	border-sizing:border-box;
+}
+
+
+input[type=submit]:hover{
+	color:#339966;
+}
+h1{
+	margin-top:40px;
+}
+
+</style>
+</head>
+<body>
+	<h1> Please Fill this Form!</h1>
+	<div>
+<form>
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your Name...">
+
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Your LastName...">
+
+
+<label for="email">E-mail</label>
+<input type="text" id="email" name="email" placeholder="Anything@gmail.com...">
+
+<label for="country">Select Country</label>
+<select id="country" name="country">
+<option value="Pakistan">Pakistan</option>
+<option value="India">India</option>
+<option value="Canada">Canada</option>
+<option value="Spain">Spain</option>
+</select>
+
+<label for="courses">Select Courses</label>
+<select id="courses" name="courses">
+<option value="webdevelopment">Web Development</option>
+<option value="appdevelopment">App Develoment</option>
+<option value="graphicdesign">Graphic Design</option>
+<option value="Networkingexpert">Networking Expert</option>
+</select>
+
+<center>
+<input type="submit" value="Submit">
+
+</center>
+
+
+</form>
+	</div>	
+</body>
+</html>
