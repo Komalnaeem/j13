@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>website</title>
+<style>
+.header h1{
+	text-align:center;
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	font-size:50px;
+}
+
+.nav{
+	background-color:black;
+	position:sticky;
+	width:100%;
+	height:60px;
+	
+	
+   
+}
+.nav li{
+	display:inline-block;
+	padding:9px 20px;
+	color:white;
+	margin:8px;
+	
+}
+
+.nav li a{
+	display:block;
+	list-style-type:none;
+	text-decoration:none;
+	padding:7px 35px;
+	margin:-7px;
+
+   color:white;
+   font-size:18px;
+}
+.nav li a:hover{
+background-color:grey;
+}
+
+select{
+	padding:7px 20px;
+	margin:-7px;
+}
+.search{
+	margin:-30px;
+	width:400px;
+	height:33px;
+}
+.form{
+	text-align:center;
+}
+.form input[type=text]{
+	width:400px;
+	height:50px;
+	margin:20px;
+}
+.form button{
+	background-color:black;
+	cursor:pointer;
+	width:170px;
+	height:50px;
+	color:white;
+	border:none;
+}
+</style>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<body>
+<div class="header">
+<h1>Makeup WoRlD <i class="em em-lips" aria-role="presentation" aria-label="MOUTH"></i></h1>
+</div>
+	
+<div class="nav">
+	<ul>
+		<li><a href="layout.html">Home</a></li>
+		<li><a href="whatsnew.html">What's New</a></li>
+		<li><a href="products.html">Product</a></li>
+		
+		<select>
+			<option value="anti ageing">Anti Ageing</option>
+			<option value="face treatment">Face Treatment</option>
+			<option value="Acne Treatment">Acne Treatment</option>
+		</select>
+		
+  <li><a href="contactus.html">Contact Us</a></li>
+<input class="search" type="text" placeholder="Search.." name="search2"><i style="font-size:24px" class="fa">&#xf002;</i>
+  
+	</ul>
+</div>
+
+<h2>Contact us</h2>
+<div class="form">
+<form>
+<p>Let’s get this conversation started. Tell us a bit about yourself, and we’ll get in touch as soon as we can.</p>
+<label for="Work email">Work email</label>
+<br>
+<input type="text" id="Work email">
+<br>
+<textarea style="width:400px;height:200px;">Message</textarea>
+<br>
+<button>Submit</button>
+</form>
+</div>
+</body>
+</html>
