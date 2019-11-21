@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array</title>
+</head>
+<body>
+	<h1>My favourite Food</h1>
+	<p id="demo"></p>
+	<script>
+	
+	var array=["Biryani","pizza","pasta","Burger","Icecream"];
+     var count;
+     var data="";
+     var linebreak="<br>"
+    
+    for(count=0;count<array.length;count++){
+    	data += array[count] + linebreak;
+    }
+     document.getElementById("demo").innerHTML=data;
+</script>
+</body>
+</html>
